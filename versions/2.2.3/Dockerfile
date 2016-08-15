@@ -1,4 +1,4 @@
-FROM        alpine:3.2
+FROM        alpine:3.4
 ENV VERSION 2.2.3
 RUN         apk add --update ca-certificates openssl tar && \
 	    wget https://github.com/coreos/etcd/releases/download/v${VERSION}/etcd-v${VERSION}-linux-amd64.tar.gz && \
