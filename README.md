@@ -1,6 +1,8 @@
 ## etcd container
 
-This is a clone of [elcolio/etcd](https://hub.docker.com/r/elcolio/etcd/).
+***NOTE: etcd version 3.0.4
+
+This is a clone of [elcolio/etcd](https://hub.docker.com/r/elcolio/etcd/) - but it contains the current 3.x version.
 
 This image weighs in at <> due to the inclusion of TLS support and etcdctl.  
 
