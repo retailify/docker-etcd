@@ -1,6 +1,6 @@
 ## etcd container
 
-***NOTE: latest etcd release 3.0.4 on alpine 3.2***
+***NOTE: latest etcd release 3.0.4 on alpine 3.4***
 
 This was a clone of [elcolio/etcd](https://hub.docker.com/r/elcolio/etcd/).
 
