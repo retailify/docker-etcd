@@ -1,6 +1,6 @@
 ## etcd container
 
-***NOTE: etcd version 3.0.4
+***NOTE: etcd version 3.0.4***
 
 This is a clone of [elcolio/etcd](https://hub.docker.com/r/elcolio/etcd/) - but it contains the current 3.x version.
 
