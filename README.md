@@ -19,7 +19,7 @@ docker run \
   -p 7001:7001 \
   -v /data/backup/dir:/data \
   --name retailify-etcd \
-  retailify/etcd:latest \
+  retailify/docker-etcd:latest \
   -name retailify-etcd \
   -discovery=https://discovery.etcd.io/blahblahblahblah \
   -advertise-client-urls http://192.168.160.56:4001 \
