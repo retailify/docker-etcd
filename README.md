@@ -1,5 +1,6 @@
-## Etcd container
+## etcd container
 
+This is a clone of [elcolio/etcd](https://hub.docker.com/r/elcolio/etcd/).
 
 This image weighs in at <> due to the inclusion of TLS support and etcdctl.  
 
