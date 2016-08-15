@@ -8,7 +8,7 @@ if [ ! -d "$VERSIONDIR" ]; then
   sed -ri 's/^(ENV VERSION) .*/\1 '"$VERSION"'/' Dockerfile
   ./getversion.sh $VERSION
   git add . --all
-  git commit -am "Update for etcd version ${VERSION}"
+  git commit -am "Update to etcd version ${VERSION}"
   git push
 else
   echo "Latest version directory ${VERSIONDIR} already exists"
