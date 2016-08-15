@@ -2,13 +2,7 @@
 
 ***NOTE: latest etcd release 3.0.4 on alpine 3.2***
 
-This was a clone of [elcolio/etcd](https://hub.docker.com/r/elcolio/etcd/) - but it contains more releases.
-
-* 2.0.13 - tho only version of the 2.0.x branch
-* 2.1.x - all releases 
-* 2.2.x - all releases (without rc releases)
-* 2.3.x - all releases (without alpha releases)
-* 3.0.x - all releases (without beta release)
+This was a clone of [elcolio/etcd](https://hub.docker.com/r/elcolio/etcd/).
 
 The `-data-dir` is a volume mounted to `/data`, and the default ports are bound to Etcd and exposed.
 
